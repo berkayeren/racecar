@@ -11,7 +11,7 @@
   <arg name="racecar_version" default="racecar-v2" />
 
   <!-- Chain the MUXs -->
-  <node name="mux_chainer" pkg="topic_tools" type="relay"
+  <node name="mux_chainer2" pkg="topic_tools" type="relay"
   	args="/vesc2/high_level/ackermann_cmd_mux/output /vesc2/low_level/ackermann_cmd_mux/input/navigation" />
 
 
